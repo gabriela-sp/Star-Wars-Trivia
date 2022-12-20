@@ -42,10 +42,10 @@ for pergunta in perguntas.keys():
 if pontuacao >= 3:
   sleep(3)
   os.system("clear")
-  print("*" * 56 + "\n\nPARABÉNS! VOCÊ É UM(A) VERDADEIR@ NERD RAIZ! 🤓\nSua pontuação final foi: " + str(pontuacao))
+  print("*" * 56 + "\n\n" + "PARABÉNS! VOCÊ É UM(A) VERDADEIR@ NERD RAIZ! 🤓".center(56, " ") + f"\n\n\nSua pontuação final foi: {pontuacao}")
 else:
   sleep(3)
   os.system("clear")
-  print("*" * 56 + "\n\n" + "NÃO FOI DESSA VEZ! VOCÊ É UM(A) NERD NUTELLA.".center(56, " ") + f"\n\nSua pontuação final foi: {pontuacao}\nFaltou/faltaram {3-pontuacao} ponto(s) para ganhar o jogo.")
+  print("*" * 56 + "\n\n" + "NÃO FOI DESSA VEZ! VOCÊ É UM(A) NERD NUTELLA.".center(56, " ") + f"\n\n\nSua pontuação final foi: {pontuacao}\nFaltou/faltaram {3-pontuacao} ponto(s) para ganhar o jogo.")
 
-print("\n" + "*" * 56 + "\n\n\n" + "🌠OBRIGADA POR JOGAR🌠".center(54, " "))
+print("\n" + "*" * 56 + "\n\n" + "🌠OBRIGADA POR JOGAR🌠".center(54, " "))
