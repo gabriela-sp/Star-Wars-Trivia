@@ -9,16 +9,19 @@ perguntas = {
   'Questão 5) Escreva a letra da opção que NÃO é o nome de\num título de filme da saga Star Wars:\n A) Uma nova Esperança \n B) O Retorno do Jedi \n C) Os Jedis Contra Atacam' : 'C'
 }
 
-jogar = str(
-  input(
-    "********************************************************\n\n       ✨🪐💫BEM VIND@ AO STAR WARS TRIVIA!💫🪐✨\n\n        Será que você é um Nerd Raiz ou Nutella?\n\n********************************************************\n\n                    🚨SOBRE O JOGO🚨\n\nO jogo possui 5 perguntas, responda-as corretamente e,\nse a sua pontuação for maior do que 3 pontos, você é um\nverdadeiro Nerd Raiz!\n\n********************************************************\n\n              Aperte ENTER para começar!🚀\n"
-  ))
+print("*" * 56)
+print("\n\n", "✨🪐💫BEM VIND@ AO STAR WARS TRIVIA!💫🪐✨".center(50, " "))
+print("\n\n" + "Será que você é um Nerd Raiz ou Nutella?".center(56, " ") + "\n\n")
+print("*" * 56)
+print("\n\n", "🚨SOBRE O JOGO🚨".center(52, " ") + "\n\nO jogo possui 5 perguntas, responda-as corretamente e,\nse a sua pontuação for maior do que 3 pontos, você é um\nverdadeiro Nerd Raiz!\n\n")
+print("*" * 56 + "\n")
+print("Aperte ENTER para começar!🚀".center(56, " "))
+jogar = str(input("\n"))
+
 os.system("clear")
 
-print(
-  "\n             ✨QUE A FORÇA ESTEJA COM VOCÊ!✨\n\n********************************************************\n"
-)
-
+print("\n", "✨QUE A FORÇA ESTEJA COM VOCÊ!✨".center(54, " ") + "\n\n" + "*" * 56 + "\n")
+            
 pontuacao = 0
 
 def verifica_resposta(pergunta, resposta):
@@ -32,17 +35,17 @@ for pergunta in perguntas.keys():
   resposta = str(input("Sua Resposta: ").title())
   if verifica_resposta(pergunta, resposta):
     pontuacao += 1
-    print("\nResposta certa! 😁\nSua pontuação atual é: " + str(pontuacao) + "\n\n********************************************************\n")
+    print("\nResposta certa! 😁\nSua pontuação atual é: " + str(pontuacao) + "\n\n" + "*" * 56 + "\n")
   else:
-    print("\nVocê errou! 😓\nA resposta correta era: " + perguntas[pergunta] + "\nSua pontuação atual é: " + str(pontuacao) + "\n\n********************************************************\n")
+    print("\nVocê errou! 😓\nA resposta correta era: " + perguntas[pergunta] + "\nSua pontuação atual é: " + str(pontuacao) + "\n\n" + "*" * 56 + "\n")
 
 if pontuacao >= 3:
   sleep(3)
   os.system("clear")
-  print("********************************************************\n\nPARABÉNS! VOCÊ É UM(A) VERDADEIR@ NERD RAIZ! 🤓\nSua pontuação final foi: " + str(pontuacao))
+  print("*" * 56 + "\n\nPARABÉNS! VOCÊ É UM(A) VERDADEIR@ NERD RAIZ! 🤓\nSua pontuação final foi: " + str(pontuacao))
 else:
   sleep(3)
   os.system("clear")
-  print(f"********************************************************\n\nNÃO FOI DESSA VEZ! VOCÊ É UM(A) NERD NUTELLA.\nSua pontuação final foi: {pontuacao}\nFaltou/faltaram {3-pontuacao} ponto(s) para ganhar o jogo.")
+  print("*" * 56 + "\n\n" + "NÃO FOI DESSA VEZ! VOCÊ É UM(A) NERD NUTELLA.".center(56, " ") + f"\n\nSua pontuação final foi: {pontuacao}\nFaltou/faltaram {3-pontuacao} ponto(s) para ganhar o jogo.")
 
-print("\n********************************************************\n\n                 🌠OBRIGADA POR JOGAR🌠")
+print("\n" + "*" * 56 + "\n\n\n" + "🌠OBRIGADA POR JOGAR🌠".center(54, " "))
