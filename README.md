@@ -5,7 +5,7 @@ O início do programa se dá por uma mensagem de boas vindas, além das informa�
 
 Código feito no Replit com comandos externos do Linux :)
 
-Link do Replit: https://replit.com/@GabrielaSouza14/Star-Wars-Trivia#main.py
+Link do Replit: https://replit.com/@gabriela-sp/Star-Wars-Trivia#main.py
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/120505949/208312736-076c3da7-97ca-4064-8005-847be66fd789.png">
