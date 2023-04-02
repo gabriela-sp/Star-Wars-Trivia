@@ -1,11 +1,11 @@
-# ✨🪐💫Star Wars Trivia💫🪐✨
-Oie! Esse foi um jogo de perguntas e respostas sobre Star Wars feito para exercitar conhecimentos em funções e dicionários em Python.
+<h1 align="center">✨🪐💫Star Wars Trivia💫🪐✨</h1>
+<p align="center">Hi! This was a Star Wars trivia game designed to practice knowledge of functions and dictionaries in Python 🐍.</br>
 
-O início do programa se dá por uma mensagem de boas vindas, além das informações sobre o jogo e a opção de iniciar o mesmo. Quando for iniciado, a primeira pergunta irá aparecer e, depois da resposta do usuário, ele receberá o feedback e a sua pontuação atual. Após responder as 5 perguntas do Trivia, o programa dirá se o usuário é ou não um Nerd Raiz, se sua pontuação for maior ou igual a 3.
+<p align="justify">The start of the program is given by a welcome message, in addition to information about the game and the option to start it. When started, the first question will appear and, after the user's response, they will receive a feedback and his current score. After answering the 5 Trivia questions, the program will tell whether or not the user is a "Nerd Raiz", if your score is greater than or equal to 3.</br>
 
-Código feito no Replit com comandos externos do Linux :)
+<p>Code made in Replit with external Linux commands :)</p>
 
-Link do Replit: https://replit.com/@gabriela-sp/Star-Wars-Trivia#main.py
+<p>Replit's link: https://replit.com/@gabriela-sp/Star-Wars-Trivia#main.py</p><br>
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/120505949/208312736-076c3da7-97ca-4064-8005-847be66fd789.png">
